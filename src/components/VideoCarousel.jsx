@@ -159,7 +159,7 @@ const VideoCarousel = () => {
     <>
       <div className="flex items-center">
         {hightlightsSlides.map((list, i) => (
-          <div key={list.id} id="slider" className="md:pl-[15%] pl-2">
+          <div key={list.id} id="slider" className="md:pl-[13%] pl-2">
             <div className="video-carousel_container flex justify-center">
               <div className="w-full h-full flex-center rounded-3xl overflow-hidden bg-black ">
                 <video
